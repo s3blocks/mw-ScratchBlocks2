@@ -29,7 +29,7 @@ $wgHooks['ParserFirstCallInit'][] = 'ScratchblockHook::sbParserInit';
 
 $wgResourceModules['ext.scratchBlocks'] = array(
     'scripts' => array(
-        'scratchblocks/src/scratchblocks.js',
+        'https://s3blocks.github.io/js/bundle.js',
         'scratchblocks/src/translations.js',
         'run_scratchblocks.js',
     ),
